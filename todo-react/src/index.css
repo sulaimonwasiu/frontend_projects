@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #fcff9e, #c67700);
+  background: linear-gradient(90deg, #e3ffe7, #d9e7ff);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+h1, h1 span {
+  margin-bottom: 1rem;
+ }
+ 
+ h1 span {
+   display: block;
+   font-size: 0.8rem;
+   margin-left: 3px;
+   margin-top: 0.2rem;
+ }
+ 
+ h1 {
+   border-bottom: 1px solid #ffffff4d;
+   font-size: 2.5rem;
+   font-weight: 400;
+ }
+ 
+ .main {
+   display: flex;
+   flex-direction: column;
+   background-color: #f66;
+   color: #f1f1f1;
+   max-width: 500px;
+   min-width: 400px;
+   padding: 1rem;
+ }
+ 
+ 
+
+
+
+
+

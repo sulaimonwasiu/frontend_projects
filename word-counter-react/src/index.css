@@ -1,0 +1,21 @@
+/* Import Open Sans font (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Global styles */
+:root {
+  --primary-color: #00369a; /* Primary color for your application */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent box model */
+}
+
+/* Body styles */
+body {
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans if imported, fallback to sans-serif */
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: #fff;
+}
