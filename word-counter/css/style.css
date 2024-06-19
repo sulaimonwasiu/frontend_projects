@@ -1,0 +1,76 @@
+/* Import Open Sans font (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Global styles */
+:root {
+  --primary-color: #00369a; /* Primary color for your application */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent box model */
+}
+
+/* Body styles */
+body {
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans if imported, fallback to sans-serif */
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: #fff;
+}
+
+/* Heading styles */
+h1 {
+  padding: 5px 0;
+  font-size: 1.7rem;
+  color: #111;
+  text-align: center; /* Center align the heading */
+}
+
+/* Main container styles */
+.main {
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Container styles with flexbox */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: start; /* Left-align content within the container */
+  justify-content: center; /* Center content vertically within the container (optional) */
+  width: fit-content; /* Adjust width to fit content */
+  margin: 100px auto; /* Center the container horizontally within .main */
+}
+
+/* Text area styles (optional, add to style.css if needed) */
+#text {
+  border-radius: 20px; /* Add a small rounded corner to the textarea */
+}
+
+.container textarea {
+    /* Remove default border and outline */
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    
+    /* Apply rounded corners */
+    border-radius: 20px; /* Adjust as desired */
+    
+    /* Optional: Add a subtle box-shadow on focus for feedback */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); /* Default state */
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+  }
+
+
+
+.highlight {
+    background-color: #fff6ea;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#stat {
+    margin-top: 10px;
+}
